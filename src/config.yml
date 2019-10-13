@@ -1,0 +1,11 @@
+branch-defaults:
+  master:
+    environment: null
+    group_suffix: null
+deploy:
+  artifact: target/awsec2-0.0.1-SNAPSHOT.jar
+global:
+  application_name: spring-boot-demo
+  default_ec2_keyname: spring-boot-demo
+  default_platform: Java 8
+  sc: git
